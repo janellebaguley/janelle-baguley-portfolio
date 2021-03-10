@@ -1,8 +1,4 @@
-import React, {Component} from 'react'
-
-class Wireframes extends Component {
-
-    render(){
+function Wireframes() {
         return(
             <div>
                 <section>
@@ -10,6 +6,5 @@ class Wireframes extends Component {
                 </section>
             </div>
         )
-    }
 }
 export default Wireframes

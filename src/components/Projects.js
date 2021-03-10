@@ -1,8 +1,4 @@
-import React, {Component} from 'react'
-
-class Projects extends Component {
-
-    render(){
+function Projects() {
         return(
             <div>
                 <section>
@@ -10,6 +6,5 @@ class Projects extends Component {
                 </section>
             </div>
         )
-    }
 }
 export default Projects

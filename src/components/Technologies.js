@@ -1,8 +1,4 @@
-import React, {Component} from 'react'
-
-class Technologies extends Component {
-
-    render(){
+function Technologies() {
         return(
             <div>
                 <section>
@@ -10,6 +6,5 @@ class Technologies extends Component {
                 </section>
             </div>
         )
-    }
 }
 export default Technologies
