@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import ireland from '../assets/ireland_2010.jpg'
 
 function About () {
         return(
@@ -28,6 +29,7 @@ function About () {
                         was time to switch fields again and went back 
                         to school to learn Web development. You can view 
                         my resume <Link to='/resume'>here.</Link></h5>
+                        <img src={ireland} alt='Garden at Powerscourt in Ireland. by: janelle baguley'/>
                 </section>
             </div>
         )
