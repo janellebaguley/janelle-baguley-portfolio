@@ -13,8 +13,6 @@ function Technologies() {
         return(
             <div>
                 <section className='technologies-container'>
-                    <h2>Technologies</h2>
-                    <div className='image-size'>
                     <img src={css3} alt='CSS3'/>
                     <img src={git} alt='Git'/>
                     <img src={github} alt='Github'/>
@@ -24,7 +22,6 @@ function Technologies() {
                     <img src={postgres} alt='PostgreSQL'/>
                     <img src={react} alt='React'/>
                     <img src={slack} alt='Slack'/>
-                    </div>
                 </section>
             </div>
         )
