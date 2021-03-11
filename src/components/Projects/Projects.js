@@ -1,13 +1,13 @@
-import blush from '../assets/blush.jpeg'
-import calendar from '../assets/calendar.jpeg'
+import blush from '../../assets/blush.jpeg'
+import calendar from '../../assets/calendar.jpeg'
+import './Projects.css'
 
 function Projects() {
         return(
             <div>
-                <section>
-                    <h2>Projects</h2>
-                    <section>
-                        <img src={blush} alt='wirefram for blush'/>
+                <section className='container-projects'>
+                    <section >
+                        <img src={blush} alt='wireframe for blush'/>
                     <h5>My first fullstack project was created on behalf of my sister-
                     in-law, who is working on going in to business for herself
                     as a boutique furniture and design shop owner. This project

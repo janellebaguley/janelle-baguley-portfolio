@@ -1,11 +1,12 @@
 import {Link} from 'react-router-dom'
-import ireland from '../assets/ireland_2010.jpg'
+import ireland from '../../assets/ireland_2010.jpg'
+import './About.css'
 
 function About () {
         return(
             <div>
-                <section>
-                    <h2>About</h2>
+                <section className ='container-about' >
+                <img src={ireland} alt='Garden at Powerscourt in Ireland. by: janelle baguley'/>
                     <h5>I am first and foremost a designer and artist.
                         I’ve attended school first at SLCC (Salt Lake
                         Community College) in the fashion design 
@@ -29,7 +30,7 @@ function About () {
                         was time to switch fields again and went back 
                         to school to learn Web development. You can view 
                         my resume <Link to='/resume'>here.</Link></h5>
-                        <img src={ireland} alt='Garden at Powerscourt in Ireland. by: janelle baguley'/>
+                        
                 </section>
             </div>
         )

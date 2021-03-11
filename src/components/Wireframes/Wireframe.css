@@ -1,0 +1,17 @@
+.wireframe-container {
+    width: 90vw;
+    padding: .5rem .2rem;
+    border-radius: 0.5rem;
+    margin: 2rem 2.5rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-column-gap: 1.5rem;
+}
+.wireframe-container img{
+    width: 90%;
+    display: block;
+}
+.portfolio {
+    padding: 1rem 0;
+}
