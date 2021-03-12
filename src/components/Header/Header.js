@@ -24,7 +24,7 @@ class Header extends Component {
                 menuClicked = {this.toggleDropdown}
                 width={25}
                 height={22}
-                color='black'/>
+                color='white'/>
             </div>
             {this.state.open
           ? (

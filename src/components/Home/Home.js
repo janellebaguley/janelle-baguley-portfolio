@@ -1,4 +1,5 @@
 import aspen from '../../assets/aspen_colorado.jpg'
+import turtle from '../../assets/turtle.jpg'
 import './Home.css'
 
 function Home(){
@@ -6,7 +7,7 @@ function Home(){
             <div>
                 <div className='container-home' >
                
-                    <img className='img' src={aspen} alt='Aspen Colorado Mountain in the fall. by: janelle baguley' height='100%' width = '100%'/>
+                    <img className='img' src={turtle} alt='turtle' />
                     <div className='title'>
                     Janelle Baguley
                     <section>
