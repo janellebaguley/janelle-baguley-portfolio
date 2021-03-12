@@ -1,16 +1,18 @@
+import {Link} from 'react-router-dom'
+import resume_1 from '../../assets/resume_page1.jpeg'
+import resume_2 from '../../assets/resume_page2.jpeg'
+import './Resume.css'
+
+
+
 function Resume(){
     return(
-        <div>
-            <section>
-            <h1>Janelle Baguley</h1>
-            <h3>Web Developer</h3>
-            </section>
-            <section>
-                <h4>Lehi, UT 84043 | (801) 709-8249 | Github | LinkedIn</h4>
-            </section>
-            <p>
-                <h2>Education</h2>
-            </p>
+        <div className='resume'>      
+            <Link to = 'https://docs.google.com/document/d/18x61qBYH9O8MHvFc8j6-9KbYQnqixP4TIik57MFT5vc/edit'>Resume</Link>
+            <div className='container-resume'>
+           <img src={resume_1} alt='resume'/>
+           <img src={resume_2} alt='resume'/>
+           </div>  
         </div>
     )
 }

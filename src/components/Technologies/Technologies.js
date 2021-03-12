@@ -6,7 +6,6 @@ import javascript from '../../assets/logo-javascript.svg'
 import node from '../../assets/nodejs-2.svg'
 import postgres from '../../assets/postgresql.svg'
 import react from '../../assets/react-1.svg'
-import slack from '../../assets/slack.svg'
 import './Technologies.css'
 
 function Technologies() {
@@ -21,7 +20,6 @@ function Technologies() {
                     <img src={node} alt='Nodejs'/>
                     <img src={postgres} alt='PostgreSQL'/>
                     <img src={react} alt='React'/>
-                    <img src={slack} alt='Slack'/>
                 </section>
             </div>
         )
